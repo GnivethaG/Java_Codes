@@ -1,6 +1,7 @@
 import java.util.*;
 class Hello {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc=new Scanner(System.in);
         String str=sc.nextLine();
         int i;
@@ -14,7 +15,7 @@ class Hello {
             }
         }
         System.out.println(count+1);
-        
+        sc.close();
        
     }
 }

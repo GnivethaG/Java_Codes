@@ -21,5 +21,6 @@ class prg4 {
         {
             System.out.println("FALSE");
         }
+        sc.close();
     }
 }
